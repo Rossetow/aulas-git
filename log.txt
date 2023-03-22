@@ -1,0 +1,51 @@
+aluno TDS@SLE208484 MINGW64 /
+$ cd ~/Documents
+
+aluno TDS@SLE208484 MINGW64 ~/Documents
+$ cd "Projetos JAVA"/
+
+aluno TDS@SLE208484 MINGW64 ~/Documents/Projetos JAVA
+$ git init
+Initialized empty Git repository in C:/Users/aluno TDS.SLE208484/Documents/Projetos JAVA/.git/
+
+aluno TDS@SLE208484 MINGW64 ~/Documents/Projetos JAVA (master)
+$ touch .gitignore
+
+aluno TDS@SLE208484 MINGW64 ~/Documents/Projetos JAVA (master)
+$ git add hello-world
+warning: in the working copy of 'hello-world/.vscode/settings.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'hello-world/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'hello-world/src/AppExercicio1.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'hello-world/src/FindOutlier.java', LF will be replaced by CRLF the next time Git touches it
+
+aluno TDS@SLE208484 MINGW64 ~/Documents/Projetos JAVA (master)
+$ git commit -m teste
+[master (root-commit) a2bf8e2] teste
+ 12 files changed, 284 insertions(+)
+ create mode 100644 hello-world/.gitignore
+ create mode 100644 hello-world/.vscode/settings.json
+ create mode 100644 hello-world/README.md
+ create mode 100644 hello-world/bin/AppExercicio1.class
+ create mode 100644 hello-world/bin/FindOutlier.class
+ create mode 100644 hello-world/src/AppExercicio1.java
+ create mode 100644 hello-world/src/FindOutlier.java
+ create mode 100644 hello-world/src/GooseFilter.java
+ create mode 100644 hello-world/src/Kata.java
+ create mode 100644 hello-world/src/NumArray.java
+ create mode 100644 hello-world/src/ParkingSystem.java
+ create mode 100644 hello-world/src/Twitter.java
+
+aluno TDS@SLE208484 MINGW64 ~/Documents/Projetos JAVA (master)
+$ git remote add origin https://github.com/Rossetow/java-senac.git
+
+aluno TDS@SLE208484 MINGW64 ~/Documents/Projetos JAVA (master)
+$ git push -u origin master
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (18/18), 4.22 KiB | 432.00 KiB/s, done.
+Total 18 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Rossetow/java-senac.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
